@@ -1,0 +1,2 @@
+This is text for testing writing.
+Now you can write to a file!
