@@ -1,0 +1,32 @@
+Field,Description
+region_name,"Region name (census tract, zip code, city, county, state)"
+count_qualified,# of buildings in Google Maps that are suitable for solar
+percent_covered,% of buildings in Google Maps covered by Project Sunroof
+percent_qualified,% of buildings covered by Project Sunroof that are suitable for solar
+yearly_sunlight_kwh_kw_threshold_avg,75% of the optimimum sunlight in the county containing that zip code
+yearly_sunlight_kwh_total,total solar energy generation potential for all roof space in that region
+yearly_sunlight_kwh_f,total solar energy generation potential for flat roof space in that region
+yearly_sunlight_kwh_n,total solar energy generation potential for north-facing roof space in that region
+yearly_sunlight_kwh_e,total solar energy generation potential for east-facing roof space in that region
+yearly_sunlight_kwh_s,total solar energy generation potential for south-facing roof space in that region
+yearly_sunlight_kwh_w,total solar energy generation potential for west-facing roof space in that region
+number_of_panels_total,"# of solar panels potential for all roof space in that region, assuming 1.650m x 0.992m panels"
+number_of_panels_f,"# of solar panels potential for flat roof space in that region, assuming 1.650m x 0.992m panels"
+number_of_panels_n,"# of solar panels potential for north-facing roof space in that region, assuming 1.650m x 0.992m panels"
+number_of_panels_e,"# of solar panels potential for east-facing roof space in that region, assuming 1.650m x 0.992m panels"
+number_of_panels_s,"# of solar panels potential for south-facing roof space in that region, assuming 1.650m x 0.992m panels"
+number_of_panels_w,"# of solar panels potential for west-facing roof space in that region, assuming 1.650m x 0.992m panels"
+carbon_offset_metric_tons,The potential carbon dioxide abatement of the solar capacity that meets the technical potential criteria. The calculation uses eGRID subregion CO2 equivalent non-baseload output emission rates. https://www.epa.gov/sites/production/files/2015-10/documents/egrid2012_summarytables_0.pdf
+number_of_panels_median,# of panels that fit on the median roof
+yearly_sunlight_kwh_median,"kWh/kw/yr for the median roof, in DC (not AC) terms"
+install_size_kw_buckets_json,"# of buildings with potential for various installation size buckets. Format is a JSON array, where each element is a tuple containing (1) lower bound of bucket, in kW, and (2) number of buildings in that bucket."
+lat_avg,average latitude for that region
+lng_avg,average longitude for that region
+lat_min,minimum latitude for that region
+lng_min,minimum longitude for that region
+lat_max,maximum latitude for that region
+lng_max,maximum longitude for that region
+state_name,Name of the state containing that region
+kw_total,# of kW of solar potential for all roof types in that region (assuming 250 watts per panel)
+kw_median,kW of solar potential for the median building in that region (assuming 250 watts per panel)
+existing_installs_count,"# of buildings estimated to have a solar installation, at time of data collection"
