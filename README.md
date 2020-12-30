@@ -37,3 +37,10 @@ The code will look like the following:
 
 * [Python: Real World Machine Learning](https://www.packtpub.com/big-data-and-business-intelligence/python-real-world-machine-learning?utm_source=github&utm_medium=repository&utm_campaign=9781787123212)
 
+
+
+## add to datasci.yml file
+- pip:
+    - pandas-profiling=2.8.0
+    - autoviz
+    - sweetviz
