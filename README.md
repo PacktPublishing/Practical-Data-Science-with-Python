@@ -10,7 +10,7 @@ This is the code repository for [Practical Data Science with Python](), publishe
 ---
 
 ## Instructions and Navigation
-The code from this book and repository is intended for Python 3.9. The `datasci.yml` file can be used to create a conda virtual environment by running `conda env create -f datasci.yml`
+The code from this book and repository is intended for Python 3.9. The `datasci.yml` file can be used to create a conda virtual environment by running `conda env create -f datasci.yml`. The conda environment can then be activated with `conda activate datasci`.
 
 
 All of the code is organized into folders. Each folder starts with a number followed by the application name. For example, Chapter02.

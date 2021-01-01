@@ -1,0 +1,23 @@
+name: datasci
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8
+  - matplotlib
+  - jupyterlab
+  - pandas
+  - seaborn
+  - numpy
+  - sqlalchemy
+  - joblib
+  - pyarrow
+  - openpyxl
+  - xlrd
+  - textblob
+  - scikit-learn
+  - dtale
+  - ipympl
+  - missingno
+  - pandas-profiling
+prefix: C:\Users\words\Anaconda3\envs\datasci
