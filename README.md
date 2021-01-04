@@ -41,6 +41,5 @@ The code will look like the following:
 
 ## add to datasci.yml file
 - pip:
-    - pandas-profiling=2.8.0
-    - autoviz
-    - sweetviz
+    - pandas-profiling
+    - matplotlib-label-lines
