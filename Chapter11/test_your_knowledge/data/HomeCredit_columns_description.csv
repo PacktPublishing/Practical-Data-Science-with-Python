@@ -1,0 +1,12 @@
+,Table,Row,Description,Special
+1,application_{train|test}.csv,SK_ID_CURR,ID of loan in our sample,
+2,application_{train|test}.csv,TARGET,"Target variable (1 - client with payment difficulties: he/she had late payment more than X days on at least one of the first Y installments of the loan in our sample, 0 - all other cases)",
+5,application_{train|test}.csv,NAME_CONTRACT_TYPE,Identification if loan is cash or revolving,
+6,application_{train|test}.csv,CODE_GENDER,Gender of the client,
+7,application_{train|test}.csv,FLAG_OWN_CAR,Flag if the client owns a car,
+8,application_{train|test}.csv,FLAG_OWN_REALTY,Flag if client owns a house or flat,
+9,application_{train|test}.csv,CNT_CHILDREN,Number of children the client has,
+10,application_{train|test}.csv,AMT_INCOME_TOTAL,Income of the client,
+11,application_{train|test}.csv,AMT_CREDIT,Credit amount of the loan,
+12,application_{train|test}.csv,AMT_ANNUITY,Loan annuity,
+13,application_{train|test}.csv,AMT_GOODS_PRICE,For consumer loans it is the price of the goods for which the loan is given,
