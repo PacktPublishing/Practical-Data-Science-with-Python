@@ -130,3 +130,11 @@ dmypy.json
 # Pyre type checker
 .pyre/
 Chapter6/make_fig_1.py
+Chapter15/catboost_info/learn_error.tsv
+Chapter15/catboost_info/catboost_training.json
+Chapter15/catboost_info/learn/events.out.tfevents
+Chapter15/catboost_info/test/events.out.tfevents
+Chapter15/catboost_info/test_error.tsv
+Chapter15/catboost_info/time_left.tsv
+Chapter15/drf/DRF_model_python_1620089833393_83
+Chapter15/drf/DRF_model_python_1620266080303_1
